@@ -11,9 +11,9 @@
 
 ## 使用前先看
 
-运行包不包含 Docker、VS Code、TeX 镜像或私人论文。安装 Docker 后仍需按 [配置教程](GETTING_STARTED.md)完成首次配置。源码 ZIP 和运行 ZIP 用途不同，下载后不要直接覆盖已有论文目录。
+运行包不包含 Docker、VS Code、TeX 镜像或私人论文。安装 Docker 后仍需按 [配置教程](https://github.com/Maverickquliushang/Open-LaTeX/blob/main/docs/GETTING_STARTED.md)完成首次配置。源码 ZIP 和运行 ZIP 用途不同，下载后不要直接覆盖已有论文目录。
 
-Pages 预览不是 TeX 编译结果；Codespaces 使用访问者自己的账号额度，不连接作者电脑。云端全流程未声明已经实测；具体完成项见 [验证记录](VALIDATION.md) 与 GitHub Actions。
+Pages 预览不是 TeX 编译结果；Codespaces 使用访问者自己的账号额度，不连接作者电脑。云端全流程未声明已经实测；具体完成项见 [验证记录](https://github.com/Maverickquliushang/Open-LaTeX/blob/main/docs/VALIDATION.md) 与 GitHub Actions。
 
 编译与历史核心行为保持不变，0.1.0 归档未覆盖，既有私人实例不随公开发行自动升级。
 

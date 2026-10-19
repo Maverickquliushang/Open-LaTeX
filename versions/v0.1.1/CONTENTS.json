@@ -1,0 +1,379 @@
+{
+  "version": "0.1.1",
+  "source": [
+    {
+      "path": "README.md",
+      "sha256": "a23c8ccd499c183b57b809636cfe4ce7f172e74e0e7b9e642d1762b8ec256edc"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "4b59e6a6bb5295d7386d0c568d2cfd57905ba15dcf8b53cea93f6c619b4d22cd"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "cd4b06e3b85f7fe451a7464397aba8ab0cdbb240f952ba549fe1d872d89cc7ab"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "63c4ca678ef3bf501ea778c6a758cd23345ca1185f1d7d1e8571a92d008c1592"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "cc05e4e1bbfc9f5320936231f0ba6d277f1041cb092ca5b86a409f2daf7c03cf"
+    },
+    {
+      "path": "project-env.ps1",
+      "sha256": "e0e9552435cb6167cff4401ceb096b909ed0c93073ab9d9e831e696654cac556"
+    },
+    {
+      "path": "code/project-env.ps1",
+      "sha256": "eda2beb9de2ff92ee8897196c81ca90d4bc999469800ab5868c7c6489d033ffe"
+    },
+    {
+      "path": "code/VERSION",
+      "sha256": "80447316529fc62014fbaa047fb67c51ac30e32830cda370405349d8d66d196c"
+    },
+    {
+      "path": "code/.dockerignore",
+      "sha256": "edbb467326d5221d30a9781e076b1c06d29df0320494df4ba23c7ef479e9e081"
+    },
+    {
+      "path": "versions/INDEX.md",
+      "sha256": "1d196dff0e68308821fa4a01d7fc75e64e371b5f7387af1f8dbc8863c505e706"
+    },
+    {
+      "path": "code/src/extension/backend.py",
+      "sha256": "20f3eb2cad6d497c615ce7c6777d555c40ec81d8c2048ef1359fd915b655f432"
+    },
+    {
+      "path": "code/src/extension/extension.js",
+      "sha256": "f5a29ddc4eeb72b1652f1c6bf5b29492a9b3c03a2036303934d6681fdc130f2f"
+    },
+    {
+      "path": "code/src/extension/media/app.js",
+      "sha256": "c0a90622257ef1fe99def8ba6d82a72491dcdcfaa718bfccd0d576c3f54795e4"
+    },
+    {
+      "path": "code/src/extension/media/history.svg",
+      "sha256": "40dbdf642a478e8856390495f5edc761f652d48a76465b5956287e5095c05f8e"
+    },
+    {
+      "path": "code/src/extension/media/index.html",
+      "sha256": "3a7dd9c145167a8da9c6decbe0da604340e51af3fc699dc9a54f9903617c7bd3"
+    },
+    {
+      "path": "code/src/extension/media/style.css",
+      "sha256": "48f675219a660eb4b5078e5038ec7c0d20f7aa939e38a240a4204fbdf45ff66c"
+    },
+    {
+      "path": "code/src/extension/package.json",
+      "sha256": "5b2e6fedf99e589ead8e346709a4e9691ecaeb50a71e34a9cf490d7e278a5aaf"
+    },
+    {
+      "path": "code/src/tools/audit_latex.py",
+      "sha256": "262e171b4dbb25466e83be379bc2bf4a021013f30876b2098026ab489d0fa069"
+    },
+    {
+      "path": "code/src/tools/build-launcher-icon.ps1",
+      "sha256": "9f9956090cf7dc16e660797f6965d39969c96808a7a682d8b2e1908f20c7a30e"
+    },
+    {
+      "path": "code/src/tools/build-start-icon.ps1",
+      "sha256": "ac679b40fdeb15488277f472f13f3c3f3717ececf36cfd336b54996c6a2cd7d7"
+    },
+    {
+      "path": "code/src/tools/fast_build.py",
+      "sha256": "c4de653f3760aa4e255f1b90f8b87d60ab0815a58f048440b7fb5b8579241aca"
+    },
+    {
+      "path": "code/src/tools/history-scheduler.ps1",
+      "sha256": "bfb3a209b2b53d12d10e3f688f33dbff5cdf8c16ebabd66cecfa6e019f8f72e8"
+    },
+    {
+      "path": "code/src/tools/history-session.ps1",
+      "sha256": "d596452e198138d2259e75a6d7fb894c90f28c867f27fce171605c1f70cbae64"
+    },
+    {
+      "path": "code/src/tools/HistoryTaskRunner.cs",
+      "sha256": "673e059ce7af69739e6ad33d5f686425c3e7957882d8ea4b6f00b79e2454f750"
+    },
+    {
+      "path": "code/src/tools/install-modern-texlive.sh",
+      "sha256": "731ddee222d85e2b09f0921775c5318d951d61928c1c7f188635ca967f81c08b"
+    },
+    {
+      "path": "code/src/tools/launcher-runtime.ps1",
+      "sha256": "bdac63524378dff61008a0ac3f9984df532f8f0bc05183f07b97a0acb6a794a0"
+    },
+    {
+      "path": "code/src/tools/Open-LaTeX.cmd",
+      "sha256": "a25c4e90611b7c9a37a6040b75dbb7e44fdfd96add120b13347738620104051f"
+    },
+    {
+      "path": "code/src/tools/OpenLaTeX.cs",
+      "sha256": "a3b445d4164094d08a5fd12f814056cbe8a9a6dd1986346f10b5c32134baba3b"
+    },
+    {
+      "path": "code/src/tools/Paper-History.cmd",
+      "sha256": "53a35191767e87bd3d0ac950f3cb2b5c5fee10c232c1d153bbfb9d55c2ab1e2c"
+    },
+    {
+      "path": "code/src/tools/paper_history.py",
+      "sha256": "de61f0a0a04e10e695bd31e73b3eee68ecd17dfed9e7684c79440fbe652bff1a"
+    },
+    {
+      "path": "code/src/tools/register-history-task.ps1",
+      "sha256": "53d32c0c76f12e244d77dcb4ac7b43b9266dae760b06cd605db20a474fad886c"
+    },
+    {
+      "path": "code/src/tools/runtime-config.ps1",
+      "sha256": "4133fb5b11777bfa024ed323243d0637a2e5af37b005c6cf1b5663e2aeb7e6b1"
+    },
+    {
+      "path": "code/src/tools/StartLaTeX.cs",
+      "sha256": "ec63ec810d98888bc006b34d630834ce2ee2541ed637a5b89f238141ae51999f"
+    },
+    {
+      "path": "code/scripts/archive.py",
+      "sha256": "ec8b1812e98ef4e62027c939fbcb3127be0fdf1a0a45f27b5a09832120d3da9f"
+    },
+    {
+      "path": "code/scripts/build.ps1",
+      "sha256": "9b09503402eeff4d7762483208af9fa86e11d593aceca6b02bb769c3f21fdde9"
+    },
+    {
+      "path": "code/scripts/deploy.ps1",
+      "sha256": "7e176c43d3bc475430c84ac6a6f8711a59b1bb09164500cbc155f01f804f15fc"
+    },
+    {
+      "path": "code/scripts/deployment-common.ps1",
+      "sha256": "644fd2b9aa0a4ca8cdf1c46a6a80fd0779fc4644405d342dd89e21414b223742"
+    },
+    {
+      "path": "code/scripts/package-extension.py",
+      "sha256": "d3774b6513a4e7c9b39514f33b1de8cdd6b78291a9a13dbad258e161db9229c1"
+    },
+    {
+      "path": "code/scripts/rollback.ps1",
+      "sha256": "d630eeefac785bdcaf0d51650c19d0112c3a0a8280e264adf3fd85e1e2e29960"
+    },
+    {
+      "path": "code/scripts/setup-codespaces.py",
+      "sha256": "ed679ecdfcc4d10396ae33f7bc55b219a92b8e0559a6ce402206c74b1202f394"
+    },
+    {
+      "path": "code/scripts/test-launchers.ps1",
+      "sha256": "82e20d99c08a64332d0671813e708b6dce77f724b9cc2641222e0360ca27c34b"
+    },
+    {
+      "path": "code/scripts/test.ps1",
+      "sha256": "eff5c93ada565d71df76160e324ed5f7339f8ebef7b0a65248197d08990f28a1"
+    },
+    {
+      "path": "code/tests/README.md",
+      "sha256": "09dd817e454710ff9daa1150a345ddc4409c818e1539d90e97338c75730c4a96"
+    },
+    {
+      "path": "code/tests/test-deployment.ps1",
+      "sha256": "129af55a22d11176eaf4b27e7efa1c74a75d68f4685f00f3deaba4e6a3332177"
+    },
+    {
+      "path": "code/tests/test_build_audit.py",
+      "sha256": "73c16727e7bccfaf49d7a12504553f2b8c0ce0846520b4e5906a80ebe3145bd3"
+    },
+    {
+      "path": "code/tests/test_history.py",
+      "sha256": "c733accf8802e4ee08872638d784bbf885db30ee407abaec39bac229abdec23d"
+    },
+    {
+      "path": "code/config/deployment-map.json",
+      "sha256": "eef9c2b4d3bca41a7cb521209e3fd454cf6c4710a992adc412ea7628df975fc8"
+    },
+    {
+      "path": "code/config/deployment.example.json",
+      "sha256": "c38d31c273208452f5482580dd33a2763a6a4a91379a304440e8d8d1f4ab52e1"
+    },
+    {
+      "path": "code/config/Dockerfile",
+      "sha256": "83dfc0d4645e0e5b7ead584b0229b171513254da28e6050ad04e93d5656cfe22"
+    },
+    {
+      "path": "code/config/Dockerfile.codespaces",
+      "sha256": "88ae8a6cc5557d54fb68146ca48cef50c6926077c877e16dc23b6d32b833baee"
+    },
+    {
+      "path": "code/config/Dockerfile.test",
+      "sha256": "4c6c1a45e47ab41dffd07dfd49df360c1d3df2865318365c5d0e7b6ce8b00866"
+    },
+    {
+      "path": "code/config/runtime.example.json",
+      "sha256": "cacfae20b374afcaefe814ce0b5ebdbb7423d0dd88a7a15e2890f3150955932a"
+    },
+    {
+      "path": "code/config/RUNTIME_README.md",
+      "sha256": "99b49d902b76615a2ec54d3a42c33096f89af9c6ac6246b3ead46a1926831bd9"
+    },
+    {
+      "path": "code/config/vscode-settings.json",
+      "sha256": "c06068057096beac506ce59fa8081ceff2e6362801109c8ced0df92ba2b7033d"
+    },
+    {
+      "path": "code/examples/hello-en/main.tex",
+      "sha256": "7e9940b26fc58d39ff6f6f6174f8615a034b98a85045180abf291d771b68090d"
+    },
+    {
+      "path": "code/examples/hello-zh/main.tex",
+      "sha256": "4d19bf90cc6f5228365382d73abb5ae42523d41999cad12909127341086bec27"
+    },
+    {
+      "path": "code/web/app.js",
+      "sha256": "f16e7aa2e3890d6157bb7acdeca242183283ba3229c32a9f07a622a155f6a666"
+    },
+    {
+      "path": "code/web/index.html",
+      "sha256": "5db6b273543f84a8177c01d5475f9188035145c94542c3c538ceb8dbd6f19711"
+    },
+    {
+      "path": "code/web/style.css",
+      "sha256": "59499e6332bfb07ffe3783227562675d923f47d1915fd2bf76ba0f3df493f946"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c67456aeef3b294fc3db862d10b4d5f9b43c719b78ecd712193d3529d827451c"
+    },
+    {
+      "path": "docs/assets/demo-desktop.png",
+      "sha256": "3ebdcd6e92fa95dafebe55e0f37f37b885a055a0e136dd01842e2fb3321eef5d"
+    },
+    {
+      "path": "docs/assets/open-latex-banner.svg",
+      "sha256": "774d843a59a25cf997cbcc080e3c27dbea68f5dc8c638cc1efb9004f86d2e2ec"
+    },
+    {
+      "path": "docs/GETTING_STARTED.md",
+      "sha256": "663b3862f61695c0ffae0cd7ab657fa7eb506fd3841ca06ef6744abc56a78efe"
+    },
+    {
+      "path": "docs/MAINTENANCE.md",
+      "sha256": "c6e9a998071921f15ececb50199f19eb91ca6aef202e93740df9060b8ff1ad93"
+    },
+    {
+      "path": "docs/ONLINE.md",
+      "sha256": "16f7a3492fa49bb5f55773a209e35487b68231a9a30eb3730762102965c652c5"
+    },
+    {
+      "path": "docs/RELEASE_NOTES-0.1.0.md",
+      "sha256": "2e780169eb09b6b4a6835b42d750fc6d77c0654aef6ffbe802ceabcc68909b72"
+    },
+    {
+      "path": "docs/RELEASE_NOTES-0.1.1.md",
+      "sha256": "85b79e46f7375357298e4dec25f07b7da173aea88625555c3b8ba033b5db3716"
+    },
+    {
+      "path": "docs/THIRD_PARTY.md",
+      "sha256": "ec18426bf71c4ac2934dbb6b182753dd0fe2e941f99be8bbc424d700c0d7021a"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "3c7540619a1dc1b63dcb42985214db8666dafb8de69eedd0e4d4559496365981"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "c829fd6a127c661c303871c6d18d9cc602f01f2914248206aaf7b558a3233ae2"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "29a30c351b40af48937990f1e21e5e0c99b4821565df51fcf61ecff2f2c85967"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "sha256": "e1ad3ffeba6f5d7f26def58a18dc7b83b684bea56592571d9ff1a801b45467db"
+    }
+  ],
+  "runtime": [
+    {
+      "path": ".latex-tools/audit_latex.py",
+      "sha256": "262e171b4dbb25466e83be379bc2bf4a021013f30876b2098026ab489d0fa069"
+    },
+    {
+      "path": ".latex-tools/fast_build.py",
+      "sha256": "c4de653f3760aa4e255f1b90f8b87d60ab0815a58f048440b7fb5b8579241aca"
+    },
+    {
+      "path": ".latex-tools/history-scheduler.ps1",
+      "sha256": "bfb3a209b2b53d12d10e3f688f33dbff5cdf8c16ebabd66cecfa6e019f8f72e8"
+    },
+    {
+      "path": ".latex-tools/history-session.ps1",
+      "sha256": "d596452e198138d2259e75a6d7fb894c90f28c867f27fce171605c1f70cbae64"
+    },
+    {
+      "path": ".latex-tools/HistoryTaskRunner.exe",
+      "sha256": "766bcbaed348bb9c85b2df9c4d37fae26e3f9c32c662cbe87abc68fd0fac6d39"
+    },
+    {
+      "path": ".latex-tools/install-modern-texlive.sh",
+      "sha256": "731ddee222d85e2b09f0921775c5318d951d61928c1c7f188635ca967f81c08b"
+    },
+    {
+      "path": ".latex-tools/launcher-runtime.ps1",
+      "sha256": "bdac63524378dff61008a0ac3f9984df532f8f0bc05183f07b97a0acb6a794a0"
+    },
+    {
+      "path": ".latex-tools/Open-LaTeX.ico",
+      "sha256": "1bdd01bbe7da7ec2832302be84933db3cdec5872e935775c7a1486761bdcea33"
+    },
+    {
+      "path": ".latex-tools/paper-history-1.0.1.vsix",
+      "sha256": "b903a2c2ba0f1cbf0bc01f8ba25493083b6e1fce7a811e6d39862ebc299788a0"
+    },
+    {
+      "path": ".latex-tools/paper_history.py",
+      "sha256": "de61f0a0a04e10e695bd31e73b3eee68ecd17dfed9e7684c79440fbe652bff1a"
+    },
+    {
+      "path": ".latex-tools/register-history-task.ps1",
+      "sha256": "53d32c0c76f12e244d77dcb4ac7b43b9266dae760b06cd605db20a474fad886c"
+    },
+    {
+      "path": ".latex-tools/runtime-config.ps1",
+      "sha256": "4133fb5b11777bfa024ed323243d0637a2e5af37b005c6cf1b5663e2aeb7e6b1"
+    },
+    {
+      "path": ".latex-tools/runtime.example.json",
+      "sha256": "cacfae20b374afcaefe814ce0b5ebdbb7423d0dd88a7a15e2890f3150955932a"
+    },
+    {
+      "path": ".latex-tools/Start-LaTeX.ico",
+      "sha256": "1786540cf0c8f293b7b9f610bcd8c99462cea041177f145d41f6e7a26d89a14f"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "63c4ca678ef3bf501ea778c6a758cd23345ca1185f1d7d1e8571a92d008c1592"
+    },
+    {
+      "path": "Open-LaTeX.cmd",
+      "sha256": "a25c4e90611b7c9a37a6040b75dbb7e44fdfd96add120b13347738620104051f"
+    },
+    {
+      "path": "Open-LaTeX.exe",
+      "sha256": "66ca07b35ebb2256dcda67a92d24394cf8c7e8ed336dfe387257c124fd866a00"
+    },
+    {
+      "path": "Paper-History.cmd",
+      "sha256": "53a35191767e87bd3d0ac950f3cb2b5c5fee10c232c1d153bbfb9d55c2ab1e2c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "99b49d902b76615a2ec54d3a42c33096f89af9c6ac6246b3ead46a1926831bd9"
+    },
+    {
+      "path": "Start-LaTeX.exe",
+      "sha256": "a444fc065f578f80536a1272056ee58fd94fabc36dc7498d90ea2747287a8d3a"
+    },
+    {
+      "path": "vscode-settings.example.json",
+      "sha256": "c06068057096beac506ce59fa8081ceff2e6362801109c8ced0df92ba2b7033d"
+    }
+  ]
+}

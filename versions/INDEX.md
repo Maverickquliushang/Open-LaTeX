@@ -2,10 +2,10 @@
 
 | 产品版本 | 日期 | 验证状态 | 发行说明 |
 | --- | --- | --- | --- |
-| 0.1.1 | 2026-10-19 | 公开教程、Pages 演示、Windows 构建通过；云端实测范围见验证记录 | [0.1.1 说明](../docs/RELEASE_NOTES-0.1.1.md) |
+| 0.1.1 | 2026-10-19 | Pages 已上线，线上 13 项交互通过；GitHub 中英文编译与 Windows 构建通过 | [0.1.1 说明](../docs/RELEASE_NOTES-0.1.1.md) |
 | 0.1.0 | 2026-10-19 | 开发隔离验证与个人实例部署/运行验证通过；本地开发版，未公开发布 | [0.1.0 说明](../docs/RELEASE_NOTES-0.1.0.md) |
 
-本地归档目录为 `versions/v0.1.0/`，包含独立源码 ZIP、Windows 运行 ZIP、RELEASE_NOTES.md、CONTENTS.json 与 SHA256SUMS.txt。归档不是运行时开发入口。
+本地归档目录为 `versions/v0.1.0/` 与 `versions/v0.1.1/`，每版包含独立源码 ZIP、Windows 运行 ZIP、RELEASE_NOTES.md、CONTENTS.json 与 SHA256SUMS.txt。归档不是运行时开发入口。
 
 产品版本来源为 `code/VERSION`；中文历史扩展的 1.0.1 为独立组件版本。旧环境的测试记录不是本项目发行验收记录。
 
