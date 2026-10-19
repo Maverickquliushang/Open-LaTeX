@@ -2,10 +2,11 @@
 
 ## 0.1.1 新增内容
 
-- 浏览器实际验证：文字编辑联动、命名版本、差异显示、恢复、恢复前备份、文本注入不执行、TeX 特殊字符转义、390px 手机与 1440px 桌面布局、无外部资源请求，共 10 项通过。README 图片来自实际运行的演示页面。
+- 三栏浏览器演示 13 项检查通过：三个文件切换、直接编辑 LaTeX、标题及输入文件预览、切换保留修改、完整项目版本、按文件差异、恢复与恢复前备份、HTML 作为文字显示、缺失文件提示、桌面和手机无横向溢出。README 图片来自实际运行页面。
 - 新网页 JavaScript、归档脚本、Codespaces 初始化脚本语法检查通过。
 - Windows 0.1.1 三个启动器及 1.0.1 历史扩展从当前源码构建成功。
-- 本机 Docker Desktop 本次正常启动后引擎未就绪，未把新的样例编译记作本地通过；新增 GitHub Actions 独立验证中英文样例和 Windows 构建，结果以仓库 Actions 中实际执行记录为准。
+- GitHub Actions [首次独立验证](https://github.com/Maverickquliushang/Open-LaTeX/actions/runs/39253621227) 已通过：Ubuntu 编译原创英文（pdfLaTeX）及中文（XeLaTeX）样例、执行论文历史记录并上传 PDF；Windows 构建三个启动器及历史 VSIX 并上传运行包。
+- 本机 Docker Desktop 升级后仍未就绪，当前阻塞为 Secrets Engine 通信文件初始化失败。维护者选择暂不进一步修复，先完成公开发布；因此没有把此次新增样例记作本地 Docker 编译通过。
 - Codespaces 配置已提供，尚未在 GitHub 创建付费/耗额度环境完成全流程实测。完整 Windows 全新机器安装、完整 Dockerfile 在线重建也不宣称已验证。
 - 此版新增公开教程、演示和云端配置；既有论文实例保持原部署版本，不因网页发布修改私人论文或 Git 历史。
 

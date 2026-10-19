@@ -62,10 +62,10 @@ GitHub Pages 展示文字编辑、版本命名、差异与恢复前备份。另�
 ## 先看效果，再开始
 
 <p align="center">
-  <img src="docs/assets/demo-desktop.png" alt="Open-LaTeX 在线演示实际截图：左侧编辑，右侧排版示意，下方版本历史与恢复" width="100%">
+  <img src="docs/assets/demo-desktop.png" alt="Open-LaTeX 在线演示实际截图：左侧文件目录，中间 LaTeX 源码，右侧排版预览，下方版本历史与恢复" width="100%">
 </p>
 
-上图是随仓库发布的**浏览器演示页面**，不是 VS Code 截图。可以修改标题和正文、保存“初稿完成”、继续编辑，再比较并恢复；恢复前会增加备份版本。页面排版由 HTML / MathML 完成，**不是在线 TeX 编译器**。真实 PDF 编译请使用本地版或 Codespaces。
+上图是随仓库发布的**浏览器演示页面**，不是 VS Code 截图。左侧选择 `main.tex`、`sections/intro.tex` 或 `references.bib`，中间直接修改 LaTeX 源码，右侧点击“更新预览”。可以保存“初稿完成”、继续修改，再按文件比较差异并恢复整个示例项目；恢复前会增加备份版本。页面排版由 HTML / MathML 完成，**不是在线 TeX 编译器**。真实 PDF 编译请使用本地版或 Codespaces。
 
 本地完成配置后，工作路径是：
 
