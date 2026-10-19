@@ -1,0 +1,9 @@
+{
+  "name": "Open-LaTeX cloud writing",
+  "build": {"dockerfile": "../code/config/Dockerfile.codespaces", "context": "../code"},
+  "remoteUser": "root",
+  "postCreateCommand": "python3 code/scripts/setup-codespaces.py",
+  "customizations": {"vscode": {"extensions": ["James-Yu.latex-workshop"]}},
+  "forwardPorts": [],
+  "shutdownAction": "stopContainer"
+}

@@ -1,0 +1,26 @@
+% !TeX program = xelatex
+\documentclass[UTF8,a4paper,11pt]{ctexart}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\title{从第一行开始}
+\author{Open-LaTeX 示例}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+这是一个不含私人论文内容的中文入门示例。修改标题或正文，保存文件，
+再使用 XeLaTeX 编译。先跑通这个小例子，再加入自己的模板。
+\end{abstract}
+\section{写作与编译}
+编辑器负责写作，容器提供工具链。每次成功编译后，新的 PDF 会同步到
+主文件同级的 output 文件夹。
+\section{一个公式}
+对一组观测值 $x_1,\ldots,x_n$，算术平均值为
+\begin{equation}
+  \bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i.
+\end{equation}
+\section{保留修改的来路}
+在重要修改前保存一个命名版本，例如“初稿完成”。论文历史记录保存在本地，
+不会因为使用 Git 就自动上传到 GitHub。
+\end{document}

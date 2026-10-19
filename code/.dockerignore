@@ -1,0 +1,6 @@
+**
+!config/
+!config/Dockerfile
+!src/
+!src/tools/
+!src/tools/install-modern-texlive.sh

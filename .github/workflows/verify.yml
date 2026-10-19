@@ -1,0 +1,46 @@
+name: Verify public examples and runtime
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['code/web/**', 'docs/assets/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install sample toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends python3 git latexmk texlive-latex-extra texlive-xetex texlive-lang-chinese texlive-fonts-recommended poppler-utils
+      - name: Compile original examples and verify history
+        run: |
+          mkdir -p "$RUNNER_TEMP/open-latex-writing/papers" "$RUNNER_TEMP/open-latex-writing/.latex-tools"
+          cp -R code/examples/hello-en code/examples/hello-zh "$RUNNER_TEMP/open-latex-writing/papers/"
+          cp code/src/tools/fast_build.py code/src/tools/paper_history.py "$RUNNER_TEMP/open-latex-writing/.latex-tools/"
+          python3 "$RUNNER_TEMP/open-latex-writing/.latex-tools/fast_build.py" --workspace "$RUNNER_TEMP/open-latex-writing" --cache-root "$RUNNER_TEMP/open-latex-cache" --engine pdf --document "$RUNNER_TEMP/open-latex-writing/papers/hello-en/main.tex"
+          python3 "$RUNNER_TEMP/open-latex-writing/.latex-tools/fast_build.py" --workspace "$RUNNER_TEMP/open-latex-writing" --cache-root "$RUNNER_TEMP/open-latex-cache" --engine xe --document "$RUNNER_TEMP/open-latex-writing/papers/hello-zh/main.tex"
+          python3 "$RUNNER_TEMP/open-latex-writing/.latex-tools/paper_history.py" sweep
+          test -s "$RUNNER_TEMP/open-latex-writing/papers/hello-en/output/main.pdf"
+          test -s "$RUNNER_TEMP/open-latex-writing/papers/hello-zh/output/main.pdf"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: compiled-original-examples
+          path: ${{ runner.temp }}/open-latex-writing/papers/*/output/*.pdf
+  windows-runtime:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build Windows launchers and history VSIX
+        shell: pwsh
+        run: ./code/scripts/build.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-runtime
+          path: code/.build/runtime
+          include-hidden-files: true

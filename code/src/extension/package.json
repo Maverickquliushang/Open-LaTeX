@@ -1,0 +1,13 @@
+{
+  "name": "paper-history", "displayName": "论文历史", "description": "在 VS Code 中浏览论文版本、对比修改、命名和安全恢复。",
+  "version": "1.0.1", "publisher": "local-latex", "engines": {"vscode": "^1.90.0"},
+  "categories": ["Other"], "main": "./extension.js", "extensionKind": ["workspace"],
+  "activationEvents": ["onStartupFinished"],
+  "capabilities": {"untrustedWorkspaces": {"supported": false}, "virtualWorkspaces": false},
+  "contributes": {
+    "commands": [{"command": "paperHistory.open", "title": "论文历史：打开可视化面板", "icon": "$(history)"}],
+    "viewsContainers": {"activitybar": [{"id": "paperHistory", "title": "论文历史", "icon": "media/history.svg"}]},
+    "views": {"paperHistory": [{"id": "paperHistory.launcher", "name": "论文历史"}]},
+    "menus": {"editor/title": [{"command": "paperHistory.open", "when": "resourceExtname == .tex", "group": "navigation"}]}
+  }
+}

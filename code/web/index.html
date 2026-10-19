@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Open-LaTeX：体验论文写作、命名版本与恢复前备份。GitHub Pages 独立演示，不连接开发者电脑。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Open-LaTeX · 把心思留给论文</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="./"><span class="brand-mark">L<span>→</span></span> Open-LaTeX</a><nav aria-label="主导航"><a href="https://github.com/Maverickquliushang/Open-LaTeX/blob/main/docs/GETTING_STARTED.md">安装教程</a><a href="https://github.com/Maverickquliushang/Open-LaTeX">GitHub ↗</a></nav></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">WRITE. COMPILE. REMEMBER.</p><h1>把心思留给论文。<br><span>让每一次修改，都有来路。</span></h1><p class="lead">从一个公式到一份初稿，先在这里试试写作与版本回退。<br>准备好后，把完整的 LaTeX 工作流搬到自己的电脑。</p></div><aside class="intro-card"><span class="status-dot"></span> 独立网页体验<p>无需安装 · 不连接开发者电脑<br>演示修改只保存在当前页面内存</p><a href="https://github.com/codespaces/new?hide_repo_select=true&amp;repo=Maverickquliushang%2FOpen-LaTeX">需要真实编译？在 Codespaces 打开 ↗</a><small>需 GitHub 登录及可用额度；首次构建需要时间。</small></aside></section>
+    <div class="walkthrough"><span><b>01</b> 修改标题和正文</span><span><b>02</b> 保存一个命名版本</span><span><b>03</b> 比较差异，再恢复</span></div>
+    <section class="workbench" aria-label="论文写作交互演示">
+      <div class="bench-top"><span><i class="file-icon">T</i> hello-paper / main.tex</span><span class="demo-badge">交互示例 · 非 TeX 编译器</span></div>
+      <div class="workspace">
+        <section class="editor-pane"><div class="pane-heading"><h2>写作区</h2><span id="edit-state">示例已就绪</span></div><label for="paper-title">论文标题</label><input id="paper-title" maxlength="120" value="从第一行开始"><label for="paper-body">正文 <span>每段一行，可以自由修改</span></label><textarea id="paper-body" maxlength="12000" spellcheck="false">研究的开始，往往只是一个值得追问的小问题。
+把复杂的工具留在容器里，把写作的节奏留给自己。修改、保存、回看，每一步都清楚可循。
+在重要修改前记下一个版本。即使后来走了弯路，也能找回当时的思路。</textarea><details class="source-details"><summary>查看生成的 LaTeX 示例源码</summary><pre id="tex-source" tabindex="0"></pre><button id="download-tex" class="subtle">下载 main.tex</button></details><div class="save-row"><label class="sr-only" for="version-label">版本名称</label><input id="version-label" maxlength="60" placeholder="给这个版本起个名字，例如：初稿完成"><button id="save-version">保存版本</button></div><p class="micro">此处用浏览器排版展示文字。下载的源码需用 XeLaTeX 编译；实际 PDF 的分页与字体可能不同。</p></section>
+        <section class="preview-pane"><div class="pane-heading"><h2>排版预览</h2><span>浏览器示意</span></div><article class="paper" aria-label="论文排版示意"><div class="paper-rule"></div><p class="paper-kicker">OPEN-LATEX · A SMALL BEGINNING</p><h3 id="preview-title">从第一行开始</h3><p class="paper-author">Open-LaTeX 示例 · 2026</p><div class="paper-abstract"><h4>摘要</h4><p>一个清楚、安静的写作起点。用这个小例子体验编辑与版本回看，再开始自己的论文。</p></div><h4>1 &nbsp; 写作的开始</h4><div id="preview-body"></div><div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mover><mi>x</mi><mo>¯</mo></mover><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub></mrow></math><span>(1)</span></div><div class="paper-footer">示例文稿 · 不含私人论文内容<span>1</span></div></article></section>
+      </div>
+      <section class="history-pane"><div class="pane-heading"><h2>论文历史 <span id="history-count"></span></h2><button id="reset-demo" class="subtle">重置演示</button></div><p class="micro">选择版本查看差异；恢复会先为当前内容增加一个“恢复前备份”。演示最多保留 20 个版本，刷新即清空。</p><div class="history-layout"><div id="history-list" aria-label="版本列表"></div><div class="comparison"><div class="compare-title"><strong id="selected-title">初始示例</strong><button id="restore-version" class="secondary">恢复此版本</button></div><pre id="diff-view" tabindex="0" aria-label="与当前内容的差异"></pre></div></div></section>
+    </section>
+    <p id="notification" role="status" aria-live="polite">试试修改标题，然后保存一个版本。</p>
+    <section class="routes"><a href="https://github.com/Maverickquliushang/Open-LaTeX/blob/main/docs/GETTING_STARTED.md"><span>⌂</span><h2>在自己的电脑写作</h2><p>Windows + Docker + VS Code。一步一步安装，编译第一篇中英文论文。</p><strong>打开完整配置教程 →</strong></a><a href="https://github.com/Maverickquliushang/Open-LaTeX/blob/main/docs/ONLINE.md"><span>☁</span><h2>在 GitHub 云端编译</h2><p>Codespaces 使用独立云端容器。真实运行 LaTeX，不连接作者本机。</p><strong>查看云端体验说明 →</strong></a><a href="https://github.com/Maverickquliushang/Open-LaTeX/releases"><span>↓</span><h2>带走完整工作流</h2><p>公开源码、Windows 运行包、配置示例和验证记录，按需选择。</p><strong>查看版本与下载 →</strong></a></section>
+  </main>
+  <footer><span>Open-LaTeX · 写作有来路</span><span>MIT · 无第三方脚本 · 无本机连接</span></footer>
+</body>
+</html>

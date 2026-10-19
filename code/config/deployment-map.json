@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {"source":"Open-LaTeX.exe","target":"Open-LaTeX.exe"},
+    {"source":"Start-LaTeX.exe","target":"Start-LaTeX.exe"},
+    {"source":"Open-LaTeX.cmd","target":"Open-LaTeX.cmd"},
+    {"source":"Paper-History.cmd","target":"Paper-History.cmd"},
+    {"source":".latex-tools/launcher-runtime.ps1","target":".latex-tools/launcher-runtime.ps1"},
+    {"source":".latex-tools/runtime-config.ps1","target":".latex-tools/runtime-config.ps1"},
+    {"source":".latex-tools/history-session.ps1","target":".latex-tools/history-session.ps1"},
+    {"source":".latex-tools/history-scheduler.ps1","target":".latex-tools/history-scheduler.ps1"},
+    {"source":".latex-tools/register-history-task.ps1","target":".latex-tools/register-history-task.ps1"},
+    {"source":".latex-tools/HistoryTaskRunner.exe","target":".latex-tools/HistoryTaskRunner.exe"},
+    {"source":".latex-tools/fast_build.py","target":".latex-tools/fast_build.py"},
+    {"source":".latex-tools/audit_latex.py","target":".latex-tools/audit_latex.py"},
+    {"source":".latex-tools/paper_history.py","target":".latex-tools/paper_history.py"},
+    {"source":".latex-tools/install-modern-texlive.sh","target":".latex-tools/install-modern-texlive.sh"},
+    {"source":".latex-tools/Open-LaTeX.ico","target":".latex-tools/Open-LaTeX.ico"},
+    {"source":".latex-tools/Start-LaTeX.ico","target":".latex-tools/Start-LaTeX.ico"},
+    {"source":".latex-tools/paper-history-1.0.1.vsix","target":".latex-tools/local-latex.paper-history-1.0.1.vsix"}
+  ],
+  "mergedRuntimeConfig": ".latex-tools/runtime.json"
+}

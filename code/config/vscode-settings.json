@@ -1,0 +1,79 @@
+{
+  "latex-workshop.docker.enabled": false,
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.outDir": "/opt/latex-build/.cache/preview%DIR%",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.tools": [
+    {
+      "command": "python3",
+      "name": "latexmk-pdflatex",
+      "args": [
+        "/work/.latex-tools/fast_build.py",
+        "--engine",
+        "pdf",
+        "--document",
+        "%DOC_EXT%",
+        "--outdir",
+        "%OUTDIR%"
+      ]
+    },
+    {
+      "command": "python3",
+      "name": "latexmk-xelatex",
+      "args": [
+        "/work/.latex-tools/fast_build.py",
+        "--engine",
+        "xe",
+        "--document",
+        "%DOC_EXT%",
+        "--outdir",
+        "%OUTDIR%"
+      ]
+    },
+    {
+      "command": "python3",
+      "name": "latexmk-lualatex",
+      "args": [
+        "/work/.latex-tools/fast_build.py",
+        "--engine",
+        "lua",
+        "--document",
+        "%DOC_EXT%",
+        "--outdir",
+        "%OUTDIR%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdfLaTeX + bibliography (latexmk)",
+      "tools": [
+        "latexmk-pdflatex"
+      ]
+    },
+    {
+      "name": "XeLaTeX + bibliography (latexmk)",
+      "tools": [
+        "latexmk-xelatex"
+      ]
+    },
+    {
+      "name": "LuaLaTeX + bibliography (latexmk)",
+      "tools": [
+        "latexmk-lualatex"
+      ]
+    }
+  ],
+  "files.exclude": {
+    "**/.tmp": true,
+    "**/.cache": true
+  },
+  "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+  "git.autoRepositoryDetection": true,
+  "git.repositoryScanMaxDepth": 2,
+  "git.scanRepositories": [
+    "papers"
+  ],
+  "workbench.localHistory.enabled": true
+}

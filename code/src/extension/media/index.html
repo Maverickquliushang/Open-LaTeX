@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src {{CSP}}; script-src 'nonce-{{NONCE}}';">
+<link rel="stylesheet" href="{{STYLE}}"><title>论文历史</title></head><body>
+<header><div><h1>论文历史 <span class="badge">本机保存</span></h1><p>选一个时间点，看看当时写了什么。</p></div><div class="actions"><button id="refresh">刷新</button><button id="snapshot" class="primary">保存命名版本</button></div></header>
+<div class="projectbar"><label for="project">当前论文</label><select id="project" aria-label="选择论文"></select><span id="saved" class="muted"></span></div>
+<div id="notice" role="status" aria-live="polite">正在读取论文历史…</div>
+<main><aside class="versions"><div class="sectiontitle">历史版本 <span id="count"></span></div><input id="search" placeholder="搜索已加载的名称或日期" aria-label="搜索版本"><div id="versions"></div><button id="more" hidden>加载更早版本</button></aside>
+<section class="review"><div class="versionhead"><div><h2 id="title">选择一个版本</h2><p id="date" class="muted">查看不会改变当前论文。</p></div><div class="actions"><button id="rename" disabled>给此版本命名</button><button id="restore" disabled>恢复此版本…</button></div></div>
+<div class="comparison"><nav class="files"><div class="sectiontitle">论文文件</div><label class="check"><input type="checkbox" id="onlyChanged">只看与当前不同的文件</label><div id="files"></div></nav>
+<article><div class="filehead"><strong id="filename">请选择文件</strong><button id="native" disabled>并排对比 ↗</button></div><div class="tabs" role="tablist"><button id="diffTab" role="tab" aria-selected="true">修改对比</button><button id="oldTab" role="tab" aria-selected="false">历史全文</button><button id="currentTab" role="tab" aria-selected="false">当前全文</button><span id="stats"></span></div><div id="content" tabindex="0"><p class="empty">从左侧选择版本，再选择要查看的文件。</p></div></article></div></section></main>
+<footer>自动记录每 5 分钟检查一次 · 对比的是磁盘中已保存的源码 · 恢复前自动备份 · 历史 PDF 需重新编译</footer>
+<script nonce="{{NONCE}}" src="{{SCRIPT}}"></script></body></html>

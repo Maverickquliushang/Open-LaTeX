@@ -1,0 +1,4 @@
+07eb7f3394286b5379ff77667dd3c4b039cd49eba6f5e0b9031cf95ba6614417  CONTENTS.json
+8399ea1c45b75a73962923fd1ff4943cdd07611be7bf2f17caed15daea9604a7  open-latex-0.1.0-source.zip
+919b7a4b3a8f9134bedf00adff0c7dd7275925775aeff2ab536ac08abab0b3bd  open-latex-0.1.0-windows-runtime.zip
+2e780169eb09b6b4a6835b42d750fc6d77c0654aef6ffbe802ceabcc68909b72  RELEASE_NOTES.md
